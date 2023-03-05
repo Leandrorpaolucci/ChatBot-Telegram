@@ -1,0 +1,10 @@
+------------------------------------------------------------
+bot1 token
+Use this token to access the HTTP API:
+6006907759:AAHLmHb5l10L-WvhDEuK-1CXT4cml0kH6H0
+https://api.telegram.org/bot<YourBOTToken>/getUpdates
+https://api.telegram.org/bot6006907759:AAHLmHb5l10L-WvhDEuK-1CXT4cml0kH6H0
+------------------------------------------------------------
+
+ln -s /opt/lampp/htdocs/formulario/telegramMsg /usr/bin/telegramMsg
+chmod 777 /opt/lampp/htdocs/formulario/telegram_msg

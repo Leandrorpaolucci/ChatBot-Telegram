@@ -1,0 +1,6 @@
+chmod +x nome_programa (torna-lo um executavel)
+sudo ./nome_programa, abri-lo como modo superuser
+sudo /opt/lampp/lampp start
+
+
+http://localhost/phpmyadmin/index.php?route=/sql&db=usuarios_telegram&table=usuario&pos=0

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+TOKEN="6006907759:AAHLmHb5l10L-WvhDEuK-1CXT4cml0kH6H0"
+
+USER=$1
+SUBJECT=$2
+
+curl --silent --output /dev/null "https://api.telegram.org/bot$TOKEN/sendMessage?chat_id=$USER&text=$SUBJECT"
+
+exit 0
